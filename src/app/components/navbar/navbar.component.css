@@ -1,0 +1,61 @@
+.navbarContainer{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(66, 66, 66);
+    color: aliceblue;
+    border-radius: 2000px;
+    display: flex;
+    justify-content: space-between;
+    width:85%;
+}
+
+.navbarContainerRight{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:1%;
+    width: 30%;
+}
+
+
+
+.navbarContainerIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    margin-left: 2%;
+}
+
+.navbarContainerItem{
+    /* margin: 0.5%; */
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hClick {
+    background-color:rgb(66, 66, 66);
+    color:aliceblue;
+    border-radius: 100vh;
+    padding:5%;
+}
+
+.hClick:active {
+    box-shadow: rgb(255, 255, 255) 0px 0.5vh 0px 0px;
+}
+
+.hClick:focus {
+    color: black;
+    background-color: aliceblue;
+}
+
+.hClick:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
